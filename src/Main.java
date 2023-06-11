@@ -1,3 +1,4 @@
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
@@ -93,6 +94,31 @@ public class Main {
             System.out.println();
         }
 
+        System.out.println(); // print blank to separate each task
+
+        // print off letter A
+        // top of A
+        System.out.println(" ******* ");
+
+        // second layer, top of A
+        for (int a = 1; a <= 2; a++) {
+            System.out.println("*********");
+        }
+
+        // top to middle. third and fourth layer of A
+        for (int a = 1; a <= 2; a++) {
+            System.out.println("***   ***");
+        }
+
+        // cross part of A
+        for (int a = 1; a <= 2; a++) {
+            System.out.println("*********");
+        }
+
+        // bottom parts of A
+        for (int a = 1; a <= 4; a++) {
+            System.out.println("***   ***");
+        }
 
     }
 }
